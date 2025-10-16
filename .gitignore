@@ -1,0 +1,13 @@
+# Node / React
+frontend/node_modules
+frontend/build
+frontend/.env
+
+# Python / FastAPI
+backend/__pycache__/
+backend/.env
+backend/*.pyc
+backend/__pypackages__/
+
+# VS Code
+.vscode/
