@@ -44,6 +44,10 @@ app.add_middleware(
     same_site = "lax"
 )
 
+@app.get("/")
+def root():
+    return RedirectResponse("https://mood-tune.vercel.app/")
+
 @app.post("/playlist", response_model=PlaylistResponse)
 
 async def generate_playlist(request: MoodRequest):
