@@ -15,7 +15,6 @@ A web app that generates niche, mood-based playlists and lets you save them to S
   - [Backend Setup](#backend-setup)
   - [Frontend Setup](#frontend-setup)
 - [Usage](#usage)
-- [Folder Structure](#folder-structure)
 - [Notes](#notes)
 
 ---
@@ -110,22 +109,6 @@ Frontend will run on: http://localhost:3000
 3. Review the generated niche playlist (background and text update).
 4. Click "Save to Spotify" to log in and create the playlist in your Spotify account.
 5. Directly Play from Spotify.
-
----
-
-## Folder Structure
-
-mood-playlist/
-├─ backend/
-│  ├─ main.py
-│  ├─ spotify_utils.py
-│  ├─ requirements.txt
-│  └─ .env
-├─ frontend/
-│  ├─ src/
-│  ├─ package.json
-│  └─ tailwind.config.js
-├─ README.md
 
 ---
 
