@@ -31,7 +31,7 @@ function App() {
         setLoading(true)
         setSpotifyLink("") // reset
         try {
-            const response = await axios.post("http://127.0.0.1:8000/playlist", {
+            const response = await axios.post("https://moodtune-l8t8.onrender.com/playlist", {
                 text: mood
         })
 
@@ -51,7 +51,7 @@ function App() {
 
     const handleSaveSpotify = async () => {
         try {
-            const response = await axios.post("http://127.0.0.1:8000/save_to_spotify", {
+            const response = await axios.post("https://moodtune-l8t8.onrender.com/save_to_spotify", {
                 songs: playlist,
                 mood
             }, {withCredentials: true})
