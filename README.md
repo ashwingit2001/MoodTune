@@ -109,6 +109,7 @@ Frontend will run on: http://localhost:3000
 2. Enter your current mood in the input box and click "Generate".
 3. Review the generated niche playlist (background and text update).
 4. Click "Save to Spotify" to log in and create the playlist in your Spotify account.
+5. Directly Play from Spotify.
 
 ---
 
