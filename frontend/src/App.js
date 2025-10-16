@@ -66,13 +66,23 @@ function App() {
 
     return (
     <div
-      className="min-h-screen flex flex-col items-center p-6 transition-colors duration-500"
-      style={{ backgroundColor: moodColor, color:textColor }}
+      className={`min-h-screen flex flex-col items-center transition-all duration-700 ${
+        playlist.length > 0 ? "pt-8 items-start" : "justify-center"
+      }`}
+      style={{ backgroundColor: moodColor }}
     >
       {/* Heading */}
-      <h1 className="text-3xl font-bold mb-6 text-gray-800" style={{color:textColor}}>
-        Mood Based Playlist Generator
-      </h1>
+      <div className={`text-center ${playlist.length > 0 ? "ml-8" : ""} mb-8 transition-all duration-700`}>
+        <h1
+          className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4"
+          style={{ color: "#2C2C2C", textShadow: "1px 1px 4px rgba(0,0,0,0.2)" }}
+        >
+          Mood Tune 🎵
+        </h1>
+        <p className="text-lg sm:text-xl text-gray-600/90">
+          Discover niche playlists that match your vibe and brighten your day.
+        </p>
+    </div>
 
       {/* Mood Input Form */}
       <form onSubmit={handleSubmit} className="flex w-full max-w-md mb-6">
@@ -96,10 +106,10 @@ function App() {
 
       {/* Playlist Cards */}
       {playlist.length > 0 && (
-        <div className="w-full max-w-md">
-          <h2 className="text-xl font-semibold mb-4 text-gray-800" style={{ color: textColor }}>
+        <div className="w-full flex justify-center mt-6">
+          {/* <h2 className="text-xl flex font-semibold mb-4 text-gray-800" style={{ color: textColor }}>
             Playlist for "{mood}"
-          </h2>
+          </h2> */}
           <ul className="space-y-3">
             {playlist.map((song, index) => (
               <li

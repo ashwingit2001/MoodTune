@@ -85,6 +85,7 @@ SESSION_SECRET_KEY=supersecretkey
 Run the FastAPI server:
 
 ```bash
+cd backend
 uvicorn main:app --reload
 ```
 
