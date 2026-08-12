@@ -18,7 +18,7 @@ Given the limited time available on workdays:
 
 ### Warm-up
 
-* [ ] Two Sum — Easy
+* [x] Two Sum — Easy
 
 ### Core Mediums
 
