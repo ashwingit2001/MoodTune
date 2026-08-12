@@ -22,7 +22,7 @@ Given the limited time available on workdays:
 
 ### Core Mediums
 
-* [ ] Group Anagrams — Medium
+* [x] Group Anagrams — Medium
 * [ ] Product of Array Except Self — Medium
 * [ ] Longest Consecutive Sequence — Medium
 
