@@ -28,7 +28,7 @@ Given the limited time available on workdays:
 
 ### Stretch
 
-* [ ] First Missing Positive — Hard
+* [x] First Missing Positive — Hard
 
 Do the Hard only if the Mediums go reasonably well.
 
