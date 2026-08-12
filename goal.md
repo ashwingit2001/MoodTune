@@ -24,7 +24,7 @@ Given the limited time available on workdays:
 
 * [x] Group Anagrams — Medium
 * [x] Product of Array Except Self — Medium
-* [ ] Longest Consecutive Sequence — Medium
+* [x] Longest Consecutive Sequence — Medium
 
 ### Stretch
 
